@@ -1,0 +1,5 @@
+# VS Code
+.vscode
+
+# SQLite
+db.sqlite3
