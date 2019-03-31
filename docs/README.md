@@ -33,3 +33,5 @@ pipenv run python3 manage.py runserver
 - [Polls](01.polls.md)
   - [Polls app](01.polls.md#poll-app)
   - [Polls models](01.polls.md#models)
+  - [Admin pages](01.polls.md#admin-pages)
+  - [Polls REST API](01.polls.md#rest-api)
