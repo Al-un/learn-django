@@ -6,7 +6,13 @@ class Poll(models.Model):
     public = models.BooleanField(default=True)
     closed = models.BooleanField(default=False)
 
+    def __str__(self):
+        return self.topic
+
 
 class Choice(models.Model):
     poll = models.ForeignKey(Poll, on_delete=models.CASCADE)
     text = models.CharField(max_length=200)
+
+    def __str__(self):
+        return self.text
